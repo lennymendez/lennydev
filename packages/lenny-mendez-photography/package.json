@@ -1,0 +1,25 @@
+{
+  "name": "lennymendezphotography",
+  "version": "0.0.1",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "shopify-buy": "^1.11.0",
+    "hellow-world": "1.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "main": "env-config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
