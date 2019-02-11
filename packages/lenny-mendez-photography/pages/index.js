@@ -62,12 +62,8 @@ const Home = () => {
   const setElement = bool => {
     setActiveElement(bool);
     setTimeout(() => {
-      setButton(bool);
+      setActiveButton(bool);
     }, 1000);
-  };
-
-  const setButton = bool => {
-    setActiveButton(bool);
   };
 
   return (
