@@ -1,10 +1,24 @@
 import React, { useState, useEffect } from "react";
-// import fetch from "isomorphic-unfetch";
 import Layout from "../components/layout";
 import { H1 } from "../lib/typography";
-import getConfig from "next/config";
+// uncomment the imports below if you need to fetch data and use secrets from env
+// import fetch from "isomorphic-unfetch";
+// import getConfig from "next/config";
 
 const App = () => {
+  const [initialized, setInitialized] = useState(false);
+
+  useEffect(() => {
+    if (!initialized) {
+      setInitialized(true);
+      // add here scripts that need to be called on component will mount
+    } else {
+      // add here scripts that need to be called on component did update
+    }
+    // add here scripts that need to be called on component will unmount
+    return () => {};
+  });
+
   return (
     <Layout>
       <div>
